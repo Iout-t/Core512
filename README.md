@@ -17,8 +17,8 @@ Open your terminal environment on the device and run the following commands:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/YOUR_USERNAME/ctminer-core512.git](https://github.com/YOUR_USERNAME/ctminer-core512.git)
-cd ctminer-arm-extreme
+git clone [https://github.com/YOUR_USERNAME/core512.git](https://github.com/YOUR_USERNAME/core512.git)
+cd core512
 
 # Create a build directory
 mkdir build && cd build
