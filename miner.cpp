@@ -1,5 +1,5 @@
 /*
- * ctminer-arm-extreme: Multi-Threaded Interleaved ARMv8 Crypto Engine
+ * core512: Multi-Threaded Interleaved ARMv8 Crypto Engine
  * Core Architecture: Dual-State Instruction Pipeline Interleaving
  * Target: Unlocking silicon boundaries on AArch64 hardware
  */
@@ -197,7 +197,7 @@ void* mine_on_core(void* arg) {
 // -------------------------------------------------------------------------
 int main() {
     int hardware_cores = sysconf(_SC_NPROCESSORS_ONLN);
-    printf("[*] ctminer-arm-extreme active. Found %d execution structures.\n", hardware_cores);
+    printf("[*] core512 active. Found %d execution structures.\n", hardware_cores);
 
     pthread_t execution_pool[8];
     ThreadArgs resource_configs[8];
