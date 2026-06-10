@@ -17,7 +17,7 @@ Open your terminal environment on the device and run the following commands:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/YOUR_USERNAME/core512.git](https://github.com/YOUR_USERNAME/core512.git)
+git clone [https://github.com/lout-t/core512
 cd core512
 
 # Create a build directory
