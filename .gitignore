@@ -48,7 +48,7 @@ TargetDirectories.txt
 *.out
 *.app
 # Specific target binary name from your project configuration
-ctminer-arm-extreme
+core512
 
 # ------------------------------------------
 # IDEs and Text Editors
